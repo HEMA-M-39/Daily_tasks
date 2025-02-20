@@ -1,0 +1,66 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "c12043e8-059e-44c5-ab59-cfdb3d3e98dd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "zoe is barking wow wow!\n",
+      "zoe is sleeping zzz!\n"
+     ]
+    }
+   ],
+   "source": [
+    "class Dog:\n",
+    "    def __init__(self, name, age):\n",
+    "        self.name = name\n",
+    "        self.age = age\n",
+    "\n",
+    "    def bark(self):\n",
+    "        return f\"{self.name} is barking wow wow!\"\n",
+    "\n",
+    "    def sleep(self):\n",
+    "        return f\"{self.name} is sleeping zzz!\"\n",
+    "\n",
+    "d1 = Dog(\"zoe\", 1)\n",
+    "print(d1.bark())\n",
+    "print(d1.sleep())\n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "200d9482-7a26-470d-ab6e-f36398f730b4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
